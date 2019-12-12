@@ -5,7 +5,8 @@ WebAssembly QuickStart Project
 
 ```shell
 $ brew update
-$ 
+$ brew install emscripten
+
 ```
 
 ## Reference 
