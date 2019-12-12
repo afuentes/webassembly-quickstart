@@ -1,7 +1,7 @@
-# WebAssembly QuickStart 
+## WebAssembly QuickStart 
 WebAssembly QuickStart Project 
 
-## Enviroment MacOs 
+### Enviroment MacOs 
 
 ```shell
 $ git clone https://github.com/emscripten-core/emsdk.git
@@ -22,7 +22,7 @@ shared:INFO: (Emscripten: Running sanity checks)
 
 ```
 
-## Start Project 
+### Start Project 
 
 ```shell
 $ git clone https://github.com/afuentes/webassembly-quickstart.git
@@ -37,10 +37,10 @@ LICENSE		README.md	a.out.js	a.out.wasm	src
 $ node a.out.js
 hello, world!
 ```
-## Deploy HTML Page Hello World Example 
+### Deploy HTML Page Hello World Example 
 
 
-## Reference 
+### Reference 
 
 * https://webassembly.org/
 * https://emscripten.org/
