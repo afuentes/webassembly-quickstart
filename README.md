@@ -11,7 +11,7 @@ $ ./emsdk install latest
 $ ./emsdk activate latest
 $ source ./emsdk_env.sh
 $ $ emcc -v
-cache:INFO: generating system asset: is_vanilla.txt... (this will be cached in "/Users/alexfuentes/.emscripten_cache/is_vanilla.txt" for subsequent builds)
+cache:INFO: generating system asset: is_vanilla.txt..
 cache:INFO:  - ok
 emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 1.39.4
 clang version 10.0.0 (/b/s/w/ir/cache/git/chromium.googlesource.com-external-github.com-llvm-llvm--project b5f295ffcec2fa7402e39eb1262acbd55a7d39f5)
