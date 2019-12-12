@@ -30,8 +30,11 @@ $ cd webassembly-quickstart
 $ emcc src/hello_world.c -o out/hello.html
 $ ls out/
 hello.html	hello.js	hello.wasm
-
+$ cd out 
+$ python -m SimpleHTTPServer 8080
 ```
+Note : Open browser in http://localhost:8080/hello.html 
+
 ### Page using Wasm Module  
 
 
