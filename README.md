@@ -27,15 +27,10 @@ shared:INFO: (Emscripten: Running sanity checks)
 ```shell
 $ git clone https://github.com/afuentes/webassembly-quickstart.git
 $ cd webassembly-quickstart
-$  emcc src/hello_world.c
-... 
-cache:INFO: generating system library: libc_rt_wasm.a
-...
-cache:INFO:  - ok
-$ ls # validate output file 
-LICENSE		README.md	a.out.js	a.out.wasm	src
-$ node a.out.js
-hello, world!
+$ emcc src/hello_world.c -o out/hello.html
+$ ls out/
+hello.html	hello.js	hello.wasm
+
 ```
 ### Page using Wasm Module  
 
