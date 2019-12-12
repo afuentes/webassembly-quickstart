@@ -25,8 +25,20 @@ Please edit the file if any of those are incorrect.
 
 This command will now exit. When you are done editing those paths, re-run it.
 ==============================================================================
+$ vi $HOME/.emscripten # updated LLVM_ROOT PATH 
+$ emcc -v
+emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 1.38.44
+clang version 9.0.0 (tags/RELEASE_900/final)
+Target: x86_64-apple-darwin17.7.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+shared:WARNING: LLVM version appears incorrect (seeing "9.0", expected "10.0")
+shared:INFO: (Emscripten: Running sanity checks)
 
 ```
+
+Note : brew package install llvm stable 9 https://formulae.brew.sh/formula/llvm 
+ 
 
 ## Reference 
 * [WebAssembly](https://webassembly.org/)
