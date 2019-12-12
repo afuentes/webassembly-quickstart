@@ -24,6 +24,14 @@ shared:INFO: (Emscripten: Running sanity checks)
 
 ## Start Project 
 
+```shell
+$ git clone 
+$ cd webassembly-quickstart
+$  emcc src/hello_world.c
+$ ls 
+LICENSE		README.md	a.out.js	a.out.wasm	src
+```
+
 ## Reference 
 
 * https://webassembly.org/
