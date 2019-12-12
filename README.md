@@ -28,7 +28,11 @@ shared:INFO: (Emscripten: Running sanity checks)
 $ git clone https://github.com/afuentes/webassembly-quickstart.git
 $ cd webassembly-quickstart
 $  emcc src/hello_world.c
-$ ls 
+... 
+cache:INFO: generating system library: libc_rt_wasm.a
+...
+cache:INFO:  - ok
+$ ls # validate output file 
 LICENSE		README.md	a.out.js	a.out.wasm	src
 ```
 
