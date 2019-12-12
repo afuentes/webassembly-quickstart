@@ -25,7 +25,7 @@ shared:INFO: (Emscripten: Running sanity checks)
 ## Start Project 
 
 ```shell
-$ git clone 
+$ git clone https://github.com/afuentes/webassembly-quickstart.git
 $ cd webassembly-quickstart
 $  emcc src/hello_world.c
 $ ls 
