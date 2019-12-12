@@ -34,7 +34,11 @@ cache:INFO: generating system library: libc_rt_wasm.a
 cache:INFO:  - ok
 $ ls # validate output file 
 LICENSE		README.md	a.out.js	a.out.wasm	src
+$ node a.out.js
+hello, world!
 ```
+## Deploy HTML Page Hello World Example 
+
 
 ## Reference 
 
