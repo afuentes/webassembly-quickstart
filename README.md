@@ -37,7 +37,7 @@ LICENSE		README.md	a.out.js	a.out.wasm	src
 $ node a.out.js
 hello, world!
 ```
-### Deploy HTML Page Hello World Example 
+### Page using Wasm Module  
 
 
 ### Reference 
