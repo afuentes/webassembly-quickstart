@@ -12,7 +12,7 @@ Welcome to Emscripten!
 
 This is the first time any of the Emscripten tools has been run.
 
-A settings file has been copied to ~/.emscripten, at absolute path: /Users/alexfuentes/.emscripten
+A settings file has been copied to ~/.emscripten, at absolute path: $HOME/.emscripten
 
 It contains our best guesses for the important paths, which are:
 
