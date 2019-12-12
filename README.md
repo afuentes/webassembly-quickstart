@@ -5,6 +5,7 @@ WebAssembly QuickStart Project
 
 ```shell
 $ brew update
+$ brew install  llvm # validate 
 $ brew install emscripten
 $ emcc -v
 ==============================================================================
