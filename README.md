@@ -45,6 +45,7 @@ Note : brew package install llvm stable 9 https://formulae.brew.sh/formula/llvm
 * https://webassembly.org/
 * https://emscripten.org/
 * https://webassembly.studio/
+* https://wasdk.github.io/WasmFiddle/
 * https://emscripten.org/docs/getting_started/Tutorial.html
 * https://medium.com/@gruizdevilla/webassembly-for-javascripters-6783f6c11ae9
 * https://libp2p.io/
