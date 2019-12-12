@@ -7,6 +7,24 @@ WebAssembly QuickStart Project
 $ brew update
 $ brew install emscripten
 $ emcc -v
+==============================================================================
+Welcome to Emscripten!
+
+This is the first time any of the Emscripten tools has been run.
+
+A settings file has been copied to ~/.emscripten, at absolute path: /Users/alexfuentes/.emscripten
+
+It contains our best guesses for the important paths, which are:
+
+  LLVM_ROOT       = /usr/bin
+  NODE_JS         = /usr/local/bin/node
+  EMSCRIPTEN_ROOT = /usr/local/Cellar/emscripten/1.38.44/libexec
+
+Please edit the file if any of those are incorrect.
+
+This command will now exit. When you are done editing those paths, re-run it.
+==============================================================================
+
 ```
 
 ## Reference 
